@@ -1,14 +1,14 @@
-opcao = int(input("indique a opção desejada:"))
+opcao = int(input("Indique a opção desejada: "))
 
-# seleção de opçoes
+# Seleção de opções
 match opcao:
     case 1:
-        print("suporte técnico.")
+        print("Suporte técnico.")
     case 2:
-        print("financeiro.")
+        print("Financeiro.")
     case 3:
-        print("nossos produtos.")
+        print("Nossos produtos.")
     case 4:
-        print("outros assuntos.")
+        print("Outros assuntos.")
     case _:
-        print("opção invalida!")
+        print("Opção inválida!")
